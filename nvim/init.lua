@@ -7,14 +7,13 @@ set background=dark
 set ignorecase
 ]])
 
-
 require('atalhos')
 require('pckr_conf')
-require('lualine').setup()
+require('configs_de_plugins.lualine_conf')
 require('bufferline').setup()
+require('Comment').setup()
 require('nvim-tree').setup()
-
-
-
+require('autoclose').setup()
+require('neoscroll').setup()
 
 vim.opt.termguicolors = true
