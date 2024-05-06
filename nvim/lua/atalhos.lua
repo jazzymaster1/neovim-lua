@@ -15,12 +15,33 @@ vim.api.nvim_set_keymap(
   { noremap = true }
  )
 
+-- abrir árvore
 vim.api.nvim_set_keymap(
   "n",
-  "<C-t>",
+  "<C-b>",
   ":NvimTreeToggle<cr>",
   { noremap = true }
  )
+
+-- ss pra salvar sem sair
+vim.api.nvim_set_keymap(
+  "n",
+  "ss",
+  ":w<cr>",
+  { noremap = true}
+ )
+
+
+-- sa = save as
+vim.api.nvim_set_keymap(
+  "n",
+  "sa",
+  ":w ",
+  { noremap = true}
+ )
+
+
+-- movimentar nas abas
 
 
 
