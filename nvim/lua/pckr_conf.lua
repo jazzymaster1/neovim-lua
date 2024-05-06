@@ -23,6 +23,10 @@ require('pckr').add{
 'nvim-lualine/lualine.nvim';
 'akinsho/bufferline.nvim';
 'nvim-tree/nvim-tree.lua';
+'numToStr/Comment.nvim';
+'m4xshen/autoclose.nvim';
+'karb94/neoscroll.nvim';
 }
+
 
 
